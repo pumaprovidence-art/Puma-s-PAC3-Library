@@ -1,0 +1,72 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "ValveBiped.Bip01_Pelvis" -1
+  1 "ValveBiped.Bip01_L_Thigh" 0
+  2 "ValveBiped.Bip01_L_Calf" 1
+  3 "ValveBiped.Bip01_L_Foot" 2
+  4 "ValveBiped.Bip01_L_Toe0" 3
+  5 "ValveBiped.Bip01_R_Thigh" 0
+  6 "ValveBiped.Bip01_R_Calf" 5
+  7 "ValveBiped.Bip01_R_Foot" 6
+  8 "ValveBiped.Bip01_R_Toe0" 7
+  9 "ValveBiped.Bip01_Spine" 0
+  10 "ValveBiped.Bip01_Spine1" 9
+  11 "ValveBiped.Bip01_Spine2" 10
+  12 "ValveBiped.Bip01_Spine4" 11
+  13 "ValveBiped.Bip01_Neck1" 12
+  14 "ValveBiped.Bip01_Head1" 13
+  15 "ValveBiped.Bip01_L_Clavicle" 12
+  16 "ValveBiped.Bip01_L_UpperArm" 15
+  17 "ValveBiped.Bip01_L_Forearm" 16
+  18 "ValveBiped.Bip01_L_Hand" 17
+  19 "ValveBiped.Bip01_L_Finger2" 18
+  20 "ValveBiped.Bip01_L_Finger21" 19
+  21 "ValveBiped.Bip01_L_Finger22" 20
+  22 "ValveBiped.Bip01_L_Finger1" 18
+  23 "ValveBiped.Bip01_L_Finger11" 22
+  24 "ValveBiped.Bip01_L_Finger12" 23
+  25 "ValveBiped.Bip01_L_Finger0" 18
+  26 "ValveBiped.Bip01_L_Finger01" 25
+  27 "ValveBiped.Bip01_L_Finger02" 26
+  28 "ValveBiped.Bip01_L_Finger4" 18
+  29 "ValveBiped.Bip01_L_Finger41" 28
+  30 "ValveBiped.Bip01_L_Finger42" 29
+  31 "ValveBiped.Bip01_L_Finger3" 18
+  32 "ValveBiped.Bip01_L_Finger31" 31
+  33 "ValveBiped.Bip01_L_Finger32" 32
+  34 "def_l_finRingCarpal" 18
+  35 "def_l_forearm" 17
+  36 "def_l_shoulderTwist" 16
+  37 "def_l_shoulderMid" 16
+  38 "ValveBiped.Bip01_R_Clavicle" 12
+  39 "ValveBiped.Bip01_R_UpperArm" 38
+  40 "ValveBiped.Bip01_R_Forearm" 39
+  41 "ValveBiped.Bip01_R_Hand" 40
+  42 "ValveBiped.Bip01_R_Finger2" 41
+  43 "ValveBiped.Bip01_R_Finger21" 42
+  44 "ValveBiped.Bip01_R_Finger22" 43
+  45 "ValveBiped.Bip01_R_Finger1" 41
+  46 "ValveBiped.Bip01_R_Finger11" 45
+  47 "ValveBiped.Bip01_R_Finger12" 46
+  48 "ValveBiped.Bip01_R_Finger0" 41
+  49 "ValveBiped.Bip01_R_Finger01" 48
+  50 "ValveBiped.Bip01_R_Finger02" 49
+  51 "ValveBiped.Bip01_R_Finger4" 41
+  52 "ValveBiped.Bip01_R_Finger41" 51
+  53 "ValveBiped.Bip01_R_Finger42" 52
+  54 "ValveBiped.Bip01_R_Finger3" 41
+  55 "ValveBiped.Bip01_R_Finger31" 54
+  56 "ValveBiped.Bip01_R_Finger32" 55
+  57 "def_r_finRingCarpal" 41
+  58 "def_r_forearm" 40
+  59 "def_r_shoulderTwist" 39
+  60 "def_r_shoulderMid" 39
+  61 "ValveBiped.forward" 14
+  62 "ValveBiped.Anim_Attachment_RH" 41
+  63 "ValveBiped.Anim_Attachment_LH" 18
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796   # pos: raw   rot: delta
+end
